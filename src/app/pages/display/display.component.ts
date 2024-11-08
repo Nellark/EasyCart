@@ -3,10 +3,10 @@ import { Component, inject, OnInit } from '@angular/core';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { CommonModule, NgFor } from '@angular/common';
 import { ActivatedRoute, RouterLink } from '@angular/router';
-import { ProductService } from '../../services/product.service';
-import { ProductInterface } from '../../types/Product.interface';
 import { FooterComponent } from '../ui/footer/footer.component';
 import { NavbarComponent } from '../ui/navbar/navbar.component';
+import { ProductService } from '../../services/product.service';
+import { ProductInterface } from '../../types/Product.interface';
 
 
 
